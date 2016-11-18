@@ -36,8 +36,8 @@ table th {
 
 .table {
   position: absolute;
-  top: 57%;
-  left: 65%;
+  top: 51%;
+  left: 64%;
 }
 
 .starry-sky {
@@ -51,21 +51,36 @@ table th {
 .header {
   background-color: rgb(38, 38, 38);
   width: 1700px;
+  overflow: auto;
+  height: 30px;
 }
 
-.header p {
+.leader {
   font-size: 16px;
-  margin-left: 20%;
+  margin-left: 25%;
+  float: left;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 0;
   color: white;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-weight: 300;
+}
+
+.follower {
+  font-size: 16px;
+  float: left;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left:  85px;
 }
 
 .header img {
  position: absolute;
- left: 50%;
+ left: 20%;
  top: 0.8%;
  z-index: 2;
 }
@@ -124,14 +139,15 @@ table th {
 
 .summary {
   position: absolute;
-  top: 20%;
-  left: 65%;
+  top: 12%;
+  left: 64%;
   color: white;
   font-family: 'Ubuntu', sans-serif;
   border: 1px solid white;
   border-radius: 3px;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.2);
+  line-height: 22px;
 }
 
 .summary h3 {
