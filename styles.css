@@ -10,6 +10,30 @@
 }*/
 body {
   background-color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+  border-color:white;
+  color:white;
+  width: 390px;
+}
+
+table th {
+  text-align: center;
+}
+
+.percentage {
+  float: right;
+}
+
+.table {
+  position: absolute;
+  top: 55%;
+  left: 65%;
 }
 
 .starry-sky {
@@ -86,13 +110,14 @@ body {
 
 .summary {
   position: absolute;
-  top: 30%;
-  left: 60%;
+  top: 20%;
+  left: 65%;
   color: white;
   font-family: 'Ubuntu', sans-serif;
   border: 1px solid white;
   border-radius: 3px;
   padding: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .summary h3 {
