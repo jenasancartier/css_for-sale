@@ -83,3 +83,23 @@ body {
   -webkit-filter: drop-shadow(5px 5px 3px #222);
   filter: drop-shadow(5px 5px 3px #222);
 }
+
+.summary {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.summary h3 {
+  text-align: center;
+}
+
+.summary p {
+  text-align: center;
+  width: 350px;
+}
