@@ -1,0 +1,14 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #75e0be;
+}
+
+.header p {
+  font-size: 4em;
+  margin: 0;
+}
