@@ -26,6 +26,26 @@ table th {
   background-color: rgba(45, 162, 255, 0.5);
 }
 
+footer {
+  background-color: rgb(38, 38, 38);
+  padding: 2px;
+  margin-top: -4px;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+}
+
+footer p {
+  float: right;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+
 .percentage {
   float: right;
 }
@@ -99,6 +119,8 @@ table th {
   top: 18%;
   left: 10%;
   z-index: 1;
+  -webkit-filter: drop-shadow(5px 5px 3px #1c1c1c);
+  filter: drop-shadow(5px 5px 3px #1c1c1c);
 }
 
 .caption p {
@@ -163,6 +185,7 @@ table th {
 
 .summary h3 {
   text-align: center;
+  font-size: 25px;
 }
 
 .summary p {
@@ -174,6 +197,7 @@ table th {
   position: absolute;
   top: 82%;
   left: 30%;
+  margin: auto;
   border-top: 1px dashed white;
   padding-top: 35px;
 }
