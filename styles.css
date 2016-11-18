@@ -66,8 +66,7 @@ footer p {
 
 .header {
   background-color: rgb(38, 38, 38);
-  width: 1700px;
-  overflow: auto;
+  overflow: hidden;
   height: 30px;
 }
 
@@ -104,7 +103,7 @@ footer p {
 
 .header img {
  position: absolute;
- left: 320px;
+ left: 20%;
  top: 0.8%;
  z-index: 2;
 }
