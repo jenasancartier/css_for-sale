@@ -37,10 +37,6 @@ footer img {
   margin: auto;
 }
 
-footer img:after {
-  content: "Copyright 2016";
-}
-
 .percentage {
   float: right;
 }
@@ -101,6 +97,10 @@ footer img:after {
  left: 20%;
  top: 0.8%;
  z-index: 2;
+}
+
+.header img:hover {
+  cursor: pointer;
 }
 
 .background {
