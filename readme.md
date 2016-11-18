@@ -1,4 +1,4 @@
-# [For Sale](http://jenasancartier.github.io/for-sale)
+# [For Sale](https://jenasancartier.github.io/for-sale/)
 ![project screenshot](/img/screenshot.png)
 
 __Version 1: November 18, 2016__
