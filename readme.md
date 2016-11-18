@@ -1,4 +1,4 @@
-# [For Sale](http://jenasancartier.github.io/css_for-sale)
+# [For Sale](http://jenasancartier.github.io/for-sale)
 ![project screenshot](/img/screenshot.png)
 
 __Version 1: November 18, 2016__
@@ -10,11 +10,11 @@ A webpage that showcases a product for sale using HTML and CSS, specifically pra
 
 ### Setup/Installation
 1. _Clone this repository at:_
-  * https://github.com/jenasancartier/css_for-sale.git
+  * https://github.com/jenasancartier/for-sale.git
 2. _Move into the project folder_
 3. _Open index.html in the browser of your choice (preferably Chrome) OR_
 4. _You can simply open the website in your browser with this link:_
-  * https://jenasancartier.github.io/css_for-sale/
+  * https://jenasancartier.github.io/for-sale/
 
 ### Support & Contact
 For questions or comments, please email me at [jenasancartier@gmail.com](mailto:jenasancartier@gmail.com)
