@@ -35,6 +35,21 @@ footer {
 footer img {
   display: block;
   margin: auto;
+  padding-top: 10px;
+}
+
+footer p {
+  text-align: center;
+  background-color: rgb(38, 38, 38);
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  margin-top: 2px;
+  padding-bottom: 5px;
+}
+
+footer p::after {
+  content: " 2016";
 }
 
 .percentage {
